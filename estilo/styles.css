@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap') ;
+
+*{
+    font-family: "Roboto", sans-serif;;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+    color: #3CA688;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 45px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot > label{
+    color: #fff;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+.remember-forgot a{
+    margin-top: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color: #4ED9BF;
+}
+
+.login{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: bolder;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: white;
+}
+
+.register-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+    color: #4ED9BF;
+}
