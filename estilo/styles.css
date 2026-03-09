@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: grimel;
+    src: url(../fonts/GrimeSlimeDripping-Regular.ttf) format(opentype);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap') ;
 
 *{
@@ -31,7 +36,9 @@ body {
 }
 
 .container h1{
+    font-family: grimel;
     font-size: 36px;
+    font-weight: normal;
     text-align: center;
     color: #3CA688;
 }
@@ -75,7 +82,7 @@ body {
 
 .remember-forgot > label{
     color: #fff;
-    margin-right: 16px;
+    margin-right: 14px;
     margin-top: 8px;
 }
 
